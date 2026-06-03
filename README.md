@@ -14,6 +14,19 @@ This project tracks one skier through video using YOLOv8, OpenCV tracking, manua
 | Tech stack | Python, YOLOv8/Ultralytics, OpenCV, NumPy, CSV/JSON, optional Polars/Parquet |
 | Best portfolio signal | Connects model output to practical data engineering, quality checks, and human review |
 
+## About / Examples
+
+This project is built around the kind of work that happens around an AI model, not just inside the model.
+
+Example situations it handles:
+
+- Label keyframes from ski footage and convert them into a YOLO one-class `skier` dataset.
+- Train a custom YOLOv8 detector and use it to track a skier through a video.
+- Bridge weak detection moments with OpenCV tracking and optical flow.
+- Export per-frame diagnostics so tracking decisions can be reviewed later.
+- Convert tracking logs into structured tables for runs, frames, detections, tracks, metrics, and review queues.
+- Identify hard frames that should be relabeled, creating a feedback loop for improving the dataset.
+
 ## Why I Built It
 
 The goal was not just to make a detector. The goal was to understand the full workflow around video-derived AI data:
