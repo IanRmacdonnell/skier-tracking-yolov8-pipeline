@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.runtime/
+.vscode/
+
+# Generated media and diagnostics
+output/
+*.mp4
+*.avi
+*.mov
+
+# Generated training/data artifacts
+dataset/
+data/processed/
+runs/
+
+# Local input videos and model weights
+videos/
+*.pt
+
+# Local machine clutter
+.DS_Store
+Thumbs.db
