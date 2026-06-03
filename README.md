@@ -1,8 +1,18 @@
 # Skier Tracking YOLOv8 Pipeline
 
-Computer vision and data-engineering prep project for learning YOLOv8 before a summer data engineering internship.
+**YOLOv8 skier-tracking pipeline for learning computer vision and data engineering: labeling video, training detection models, tracking frames, and exporting quality metrics.**
 
-This project tracks one skier through video using YOLOv8, OpenCV tracking, manual keyframes, custom one-class training, and a data pipeline that turns frame-level model decisions into queryable CSV/Parquet-style analytics outputs.
+This project tracks one skier through video using YOLOv8, OpenCV tracking, manual keyframes, custom one-class training, and a data pipeline that turns frame-level model decisions into structured analytics outputs.
+
+## At a Glance
+
+| Area | Details |
+| --- | --- |
+| Project type | Computer vision and data-engineering prep project |
+| Main objective | Learn YOLOv8 and the surrounding AI data workflow before a summer internship |
+| Core workflow | Raw video -> labels -> YOLO dataset -> trained detector -> tracked frames -> diagnostics -> quality metrics -> review queue |
+| Tech stack | Python, YOLOv8/Ultralytics, OpenCV, NumPy, CSV/JSON, optional Polars/Parquet |
+| Best portfolio signal | Connects model output to practical data engineering, quality checks, and human review |
 
 ## Why I Built It
 
@@ -26,15 +36,6 @@ That makes the project useful internship prep because it connects machine learni
 - Produces quality metrics and a label-review queue for weak tracking moments.
 - Supports video review controls like playback speed, start/end clips, and skipped time ranges.
 
-## Tech Stack
-
-- Python
-- YOLOv8 / Ultralytics
-- OpenCV
-- NumPy
-- Polars for optional Parquet output
-- CSV/JSON diagnostics
-
 ## Skills Demonstrated
 
 - Computer vision fundamentals: object detection, tracking, confidence thresholds, identity drift, and frame-level debugging.
@@ -44,6 +45,15 @@ That makes the project useful internship prep because it connects machine learni
 - Python CLI design with reusable scripts and configurable run parameters.
 - Data quality thinking: lock rate, lost frames, prediction-only frames, flow bridges, and human review priorities.
 - Practical internship prep: understanding how raw video becomes product data, not just model predictions.
+
+## Tech Stack
+
+- Python
+- YOLOv8 / Ultralytics
+- OpenCV
+- NumPy
+- Polars for optional Parquet output
+- CSV/JSON diagnostics
 
 ## Project Structure
 
