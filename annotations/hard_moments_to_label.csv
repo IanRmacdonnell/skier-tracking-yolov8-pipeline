@@ -1,0 +1,33 @@
+frame,reason
+360,pre-turn identity check before brief flow bridge
+377,brief uncertainty during fast turn
+390,post-turn recovery check
+516,pre-jump box before large screen-space move
+533,large screen-space move begins
+541,reacquire target after jump
+556,mid-reacquire target
+571,recovery path after jump
+586,recovery path after jump
+601,post-jump recovery check
+645,pre-turn check before brief uncertainty
+660,brief uncertainty during turn
+675,post-turn recovery check
+730,pre-turn check before short flow bridge
+744,short uncertainty bridge
+760,post-bridge recovery check
+795,pre-uncertainty check
+807,single-frame uncertainty
+823,single-frame uncertainty
+828,single-frame uncertainty
+880,pre-uncertainty check
+896,single-frame uncertainty
+912,post-uncertainty recovery check
+958,pre-reacquire stress point
+970,reacquire stress point begins
+977,reacquire stress point continues
+984,reacquire stress point ends
+998,post-reacquire recovery check
+1168,pre-final uncertainty check
+1181,late-video uncertainty begins
+1187,late-video recovery check
+1200,post-late-video recovery check
